@@ -12,7 +12,10 @@ struct MainView: View {
     var body: some View {
         ZStack{
             Color.red.ignoresSafeArea(.all)
-            Text("Hey mohamed ios")
+            VStack{
+                Text("Hey mohamed ios")
+                Image(systemName: "rectangle.portrait.and.arrow.right.fill")
+            }
         }
     }
 }
