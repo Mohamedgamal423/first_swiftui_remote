@@ -13,7 +13,7 @@ struct MainView: View {
         ZStack{
             Color.red.ignoresSafeArea(.all)
             VStack{
-                Text("Hey mohamed ios")
+                Text("Hey mohamed ios developer")
                 Image(systemName: "rectangle.portrait.and.arrow.right.fill")
             }
         }
