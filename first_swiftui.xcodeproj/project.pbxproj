@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		25ED66D22A586EC90085ADA5 /* first_swiftuiApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25ED66D12A586EC90085ADA5 /* first_swiftuiApp.swift */; };
-		25ED66D42A586EC90085ADA5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25ED66D32A586EC90085ADA5 /* ContentView.swift */; };
+		25ED66D42A586EC90085ADA5 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25ED66D32A586EC90085ADA5 /* MainView.swift */; };
 		25ED66D62A586ECB0085ADA5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 25ED66D52A586ECB0085ADA5 /* Assets.xcassets */; };
 		25ED66D92A586ECB0085ADA5 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 25ED66D82A586ECB0085ADA5 /* Preview Assets.xcassets */; };
 /* End PBXBuildFile section */
@@ -16,7 +16,7 @@
 /* Begin PBXFileReference section */
 		25ED66CE2A586EC90085ADA5 /* first_swiftui.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = first_swiftui.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		25ED66D12A586EC90085ADA5 /* first_swiftuiApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = first_swiftuiApp.swift; sourceTree = "<group>"; };
-		25ED66D32A586EC90085ADA5 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		25ED66D32A586EC90085ADA5 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 		25ED66D52A586ECB0085ADA5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		25ED66D82A586ECB0085ADA5 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -52,7 +52,7 @@
 			isa = PBXGroup;
 			children = (
 				25ED66D12A586EC90085ADA5 /* first_swiftuiApp.swift */,
-				25ED66D32A586EC90085ADA5 /* ContentView.swift */,
+				25ED66D32A586EC90085ADA5 /* MainView.swift */,
 				25ED66D52A586ECB0085ADA5 /* Assets.xcassets */,
 				25ED66D72A586ECB0085ADA5 /* Preview Content */,
 			);
@@ -137,7 +137,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				25ED66D42A586EC90085ADA5 /* ContentView.swift in Sources */,
+				25ED66D42A586EC90085ADA5 /* MainView.swift in Sources */,
 				25ED66D22A586EC90085ADA5 /* first_swiftuiApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
